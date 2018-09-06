@@ -1,7 +1,7 @@
 #include "main.h"
 
 u8 canbuf_hub[32];
-
+extern float cnt_temp;
 /******************************************************************** 
 * 名称  setHubMotorEnable          
 * 功能：启动或关闭轮毂电机        单个控制
@@ -363,6 +363,93 @@ void hubMotorSpeed(int hubCounte)
 
 }
 
+
+//设置轮毂电机行进长度和行进速度
+void setHubMotorLengthAndSpeed(u16 DevID,s32 length,s32 speed)
+{
+
+
+
+}
+
+//测试加上的函数
+//脉冲模式下发速度
+void setHubMotorTargetSpeed_PUL(u16 DevID,int speed)
+{
+	float speed_difference=0;     //速度变化差值
+	switch(DevID)
+	{
+		case 0x0005:		 
+			if(((speed>min_speed_p&&speed<max_speed_p)||((speed<(max_speed_n))&&(speed>(min_speed_n))))&&(speed!=hub_5_speed_last)&&(speed_cnt_5==0))			
+			{
+				speed_difference=speed-hub_5_speed_last; 
+				Hub_Delta5=speed_difference/HubMotorPlusSubSpeed;	
+				hub_5_speed_last_last=hub_5_speed_last;
+				hub_5_speed_last=speed;	
+				speed_cnt_5=1;				
+			}
+			else if(speed==0)
+			{
+				hub_5_speed_last=0;
+				speed_cnt_5=0;
+				EMB(0x0005); //刹车
+			}
+			break;
+		case 0x0006:
+			if(((speed>min_speed_p&&speed<max_speed_p)||((speed<(max_speed_n))&&(speed>(min_speed_n))))&&(speed!=hub_6_speed_last)&&(speed_cnt_6==0))
+			{
+				speed_difference=speed-hub_6_speed_last; 
+				Hub_Delta6=speed_difference/HubMotorPlusSubSpeed;
+				hub_6_speed_last_last=hub_6_speed_last;				
+				hub_6_speed_last=speed;	
+				speed_cnt_6=1;				
+			}
+			else if(speed==0)
+			{
+				hub_6_speed_last=0;
+				speed_cnt_6=0;
+				EMB(0x0006); //刹车
+			}
+			break;
+		case 0x0007:
+			if(((speed>min_speed_p&&speed<max_speed_p)||((speed<(max_speed_n))&&(speed>(min_speed_n))))&&(speed!=hub_7_speed_last)&&(speed_cnt_7==0))			
+			{
+				speed_difference=speed-hub_7_speed_last; 
+				Hub_Delta7=speed_difference/HubMotorPlusSubSpeed;	
+				hub_7_speed_last_last=hub_7_speed_last;
+				hub_7_speed_last=speed;	
+				speed_cnt_7=1;
+			}
+			else if(speed==0)
+			{
+				hub_7_speed_last=0;
+				speed_cnt_7=0;
+				EMB(0x0007); //刹车
+			}
+			break;			
+		case 0x0008:
+			if(((speed>min_speed_p&&speed<max_speed_p)||((speed<(max_speed_n))&&(speed>(min_speed_n))))&&(speed!=hub_8_speed_last)&&(speed_cnt_8==0))			
+			{		
+				speed_difference=speed-hub_8_speed_last; 
+				Hub_Delta8=speed_difference/HubMotorPlusSubSpeed;			
+				hub_8_speed_last_last=hub_8_speed_last;
+				hub_8_speed_last=speed;
+				speed_cnt_8=1;
+			}
+			else if(speed==0)
+			{
+				hub_8_speed_last=0;
+				speed_cnt_8=0;
+				EMB(0x0008); //刹车
+			}
+			break;	
+		default:
+			break;	
+	}
+}
+
+
+
 /******************************************************************** 
 * 名称hubMotorSpeed          
 * 功能：计算轮毂电机速度   
@@ -378,76 +465,52 @@ void hubMotorPul(int hubCounte)
 	}
 	else if(hubCounte>16&&hubCounte<=24)
 	{
-//		setDir(0x0005,P_);
-//		setDir(0x0006,P_);
-//		setDir(0x0007,P_);
-//		setDir(0x0008,P_);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
+		hub_5_speed=800;
+		hub_6_speed=800;
+		hub_7_speed=800;
+		hub_8_speed=800;
 	}
 	else if(hubCounte>8&&hubCounte<=16)
 	{
-//		setDir(0x0005,P_);
-//		setDir(0x0006,P_);
-//		setDir(0x0007,P_);
-//		setDir(0x0008,P_);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
+		hub_5_speed=500;
+		hub_6_speed=500;
+		hub_7_speed=500;
+		hub_8_speed=500;
 	}
 	else if(hubCounte>0&&hubCounte<=8)
 	{
-		setDir(0x0005,P_);
-		setDir(0x0006,P_);
-		setDir(0x0007,P_);
-		setDir(0x0008,P_);
-		setCyc(0x0005,900);
-		setCyc(0x0006,900);
-		setCyc(0x0007,900);
-		setCyc(0x0008,900);
+		hub_5_speed=300;
+		hub_6_speed=300;
+		hub_7_speed=300;
+		hub_8_speed=300;
 	}
 	else if(hubCounte==0)
 	{
-		setCyc(0x0005,0);
-		setCyc(0x0006,0);
-		setCyc(0x0007,0);
-		setCyc(0x0008,0);
+		hub_5_speed=0;
+		hub_6_speed=0;
+		hub_7_speed=0;
+		hub_8_speed=0;
+
 	}
 	else if(hubCounte<0&&hubCounte>=(-8))
 	{
-		setDir(0x0005,N_);
-		setDir(0x0006,N_);
-		setDir(0x0007,N_);
-		setDir(0x0008,N_);
-		setCyc(0x0005,900);
-		setCyc(0x0006,900);
-		setCyc(0x0007,900);
-		setCyc(0x0008,900);
+		hub_5_speed=-300;
+		hub_6_speed=-300;
+		hub_7_speed=-300;
+		hub_8_speed=-300;
 	}
 	else if(hubCounte<(-8)&&hubCounte>=(-16))
 	{
-//		setDir(0x0005,N_);
-//		setDir(0x0006,N_);
-//		setDir(0x0007,N_);
-//		setDir(0x0008,N_);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
-//		setCyc(0x0005,1000);
-	}
+		hub_5_speed=-500;
+		hub_6_speed=-500;
+		hub_7_speed=-500;
+		hub_8_speed=-500;	}
 	else if(hubCounte<(-16)&&hubCounte>=(-24))
 	{
-//		setDir(0x0005,N_);
-//		setDir(0x0006,N_);
-//		setDir(0x0007,N_);
-//		setDir(0x0008,N_);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
-//		setCyc(0x0005,900);
+		hub_5_speed=-800;
+		hub_6_speed=-800;
+		hub_7_speed=-800;
+		hub_8_speed=-800;
 	}
 	else if(hubCounte<0&&hubCounte>=(-8))
 	{
@@ -456,10 +519,3 @@ void hubMotorPul(int hubCounte)
 
 }
 
-//设置轮毂电机行进长度和行进速度
-void setHubMotorLengthAndSpeed(u16 DevID,s32 length,s32 speed)
-{
-
-
-
-}

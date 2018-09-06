@@ -2,7 +2,7 @@
 
 
 int cnt=0;
-
+float cnt_temp=0;
 
 void TIM2_PWM_Init(u16 arr,u16 psc)
 {  
@@ -317,43 +317,124 @@ void TIM6_Int_Init(u16 arr,u16 psc)
 //定时器2中断服务程序
 void TIM6_IRQHandler(void)   //TIM3中断
 {
+
 	if (TIM_GetITStatus(TIM6, TIM_IT_Update) != RESET)  //检查TIM2更新中断发生与否
 	{
 			
 		IWDG_Feed();			
 		cnt++;
-
 		spstate=PS2_RedLight(); 																								  //判断当前红灯还是绿灯
 		if(spstate==0&&InSituRotation_Flag==0&&returnToZero_Flag==0) 		          //红灯模式并且不处于归零状态，不处于自转角度设置状态
 		key=PS2_DataKey();
 
-		if(cnt>10)
+
+		if(cnt>1000)
 		{
 			stop();
 			LCD_ShowString(50,30,200,16,16,"Tongxin");
 		}
-//		if(workState==Normal_Control)
-//		{
-//			
-//			sendHubControlCMD();
-//		}
-//		else if(workState==InSituRo_Control)
-//		{
-//			if(hubmotor_speed==0)
-//			{
-//				setHubMotorTargetSpeed(0x0005,0);
-//				setHubMotorTargetSpeed(0x0006,0);
-//				setHubMotorTargetSpeed(0x0007,0);
-//				setHubMotorTargetSpeed(0x0008,0);
-//			}
-//			else
-//			{
-//				setHubMotorTargetSpeed(0x0005,hubmotor_speed);
-//				setHubMotorTargetSpeed(0x0006,hubmotor_speed);
-//				setHubMotorTargetSpeed(0x0007,hubmotor_speed);
-//				setHubMotorTargetSpeed(0x0008,hubmotor_speed);
-//			}	
-//		}
+		if(speed_cnt_5!=0&&speed_cnt_5<=HubMotorPlusSubSpeed)
+		{
+			if(hub_5_speed==0)
+			{
+				hub_5_speed_last=0;
+				speed_cnt_5=0;
+				EMB(0x0005); //刹车
+			}
+			else
+			{
+				speed_cnt_5++;
+				speed_temp_5=hub_5_speed_last_last+speed_cnt_5*Hub_Delta5;
+				if(speed_temp_5>0){
+					setDir(0x0005,P_);}
+				else {
+					speed_temp_5=-speed_temp_5;
+					setDir(0x0005,N_);}
+				cnt_temp = 149568/speed_temp_5;
+				hub_5_cnt = (u16)(cnt_temp);
+				setCyc(0x0005,hub_5_cnt);			
+			}
+
+		}
+		else 
+		{
+			speed_cnt_5=0;
+		}
+		
+		if(speed_cnt_6!=0&&speed_cnt_6<=HubMotorPlusSubSpeed)
+		{
+			if(hub_6_speed==0)
+			{
+				hub_6_speed_last=0;
+				speed_cnt_6=0;
+				EMB(0x0006); //刹车
+			}
+			else
+			{
+			speed_cnt_6++;
+			speed_temp_6=hub_6_speed_last_last+speed_cnt_6*Hub_Delta6;
+			if(speed_temp_6>0){
+				setDir(0x0006,P_);}
+			else {
+				speed_temp_6=-speed_temp_6;
+				setDir(0x0006,N_);}
+			cnt_temp = 149568/speed_temp_6;
+			hub_6_cnt = (u16)(cnt_temp);
+			setCyc(0x0006,hub_6_cnt);
+			}
+		}
+		else
+		{speed_cnt_6=0;}
+		
+	  if(speed_cnt_7!=0&&speed_cnt_7<=HubMotorPlusSubSpeed)
+		{
+			if(hub_7_speed==0)
+			{
+				hub_7_speed_last=0;
+				speed_cnt_7=0;
+				EMB(0x0007); //刹车
+			}
+			else
+			{
+			speed_cnt_7++;
+			speed_temp_7=hub_7_speed_last_last+speed_cnt_7*Hub_Delta7;
+			if(speed_temp_7>0){
+				setDir(0x0007,P_);}
+			else {
+				speed_temp_7=-speed_temp_7;
+				setDir(0x0007,N_);}
+			cnt_temp = 149568/speed_temp_7;
+			hub_7_cnt = (u16)(cnt_temp);
+			setCyc(0x0007,hub_7_cnt);
+			}
+		}
+		else
+		{speed_cnt_7=0;}
+		
+		if(speed_cnt_8!=0&&speed_cnt_8<=HubMotorPlusSubSpeed)
+		{
+			if(hub_8_speed==0)
+			{
+				hub_8_speed_last=0;
+				speed_cnt_8=0;
+				EMB(0x0008); //刹车
+			}
+			else
+			{
+			speed_cnt_8++;
+			speed_temp_8=hub_8_speed_last_last+speed_cnt_8*Hub_Delta8;
+			if(speed_temp_8>0){
+				setDir(0x0008,P_);}
+			else {
+				speed_temp_8=-speed_temp_8;
+				setDir(0x0008,N_);}
+			cnt_temp = 149568/speed_temp_8;
+			hub_8_cnt = (u16)(cnt_temp);
+			setCyc(0x0008,hub_8_cnt);
+			}
+		}		
+		else
+		{speed_cnt_8=0;}
 	TIM_ClearITPendingBit(TIM6, TIM_IT_Update  ); 
 	}
 }
@@ -391,3 +472,4 @@ void TIM7_IRQHandler(void)
 		
 	}
 }
+

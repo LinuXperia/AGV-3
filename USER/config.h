@@ -10,6 +10,11 @@
 #define			LCDSHOWN							1   //LCD显示为1   不显示为0
 
 /*********************************宏定义**************************************************/
+#define			max_speed_p							801
+#define			min_speed_p							2
+#define			max_speed_n							-2
+#define			min_speed_n							-801
+
 //修改限位值
 #define			max_encode1_value				9397
 #define			max_encode2_value				9632

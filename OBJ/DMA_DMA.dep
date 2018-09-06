@@ -60,8 +60,8 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_tim.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\stm32f10x_usart.h)(0x50554C44)
 I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
-F (.\main.c)(0x5B8E2126)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
-I (variable.h)(0x5B8DF75B)
+F (.\main.c)(0x5B8FB756)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (variable.h)(0x5B909875)
 I (include.h)(0x5B8D2BCD)
 I (..\HARDWARE\LED\led.h)(0x50513ABC)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -105,7 +105,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -120,13 +120,13 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (config.h)(0x5B8D29CC)
-I (extern_variable.h)(0x5B8DF7BF)
-F (.\config.h)(0x5B8D29CC)()
+I (config.h)(0x5B90965C)
+I (extern_variable.h)(0x5B8FAD97)
+F (.\config.h)(0x5B90965C)()
 F (.\custom_structure.h)(0x5B8DE4AA)()
-F (.\extern_variable.h)(0x5B8DF7BF)()
+F (.\extern_variable.h)(0x5B8FAD97)()
 F (.\include.h)(0x5B8D2BCD)()
-F (.\variable.h)(0x5B8DF75B)()
+F (.\variable.h)(0x5B909875)()
 F (..\HARDWARE\KEY\key.c)(0x5B59815A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\key.o --omf_browse ..\obj\key.crf --depend ..\obj\key.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -172,7 +172,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -187,8 +187,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\HARDWARE\LCD\lcd.c)(0x5B598156)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\lcd.o --omf_browse ..\obj\lcd.crf --depend ..\obj\lcd.d)
 I (..\HARDWARE\LCD\lcd.h)(0x5B5E789F)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -301,7 +301,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -316,8 +316,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\HARDWARE\RS485\rs485.c)(0x5B755F59)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rs485.o --omf_browse ..\obj\rs485.crf --depend ..\obj\rs485.d)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
 I (..\USER\stm32f10x.h)(0x5B8DEE94)
@@ -350,7 +350,7 @@ I (..\STM32F10x_FWLib\inc\stm32f10x_wwdg.h)(0x4D783BB4)
 I (..\STM32F10x_FWLib\inc\misc.h)(0x4D783BB4)
 I (..\HARDWARE\RS485\rs485.h)(0x5B755F59)
 I (..\SYSTEM\delay\delay.h)(0x5B349EA0)
-F (..\HARDWARE\TIMER\timer.c)(0x5B8E2079)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+F (..\HARDWARE\TIMER\timer.c)(0x5B909803)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
 I (..\HARDWARE\LED\led.h)(0x50513ABC)
@@ -395,7 +395,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -410,8 +410,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\HARDWARE\CAN\can.c)(0x5B63A828)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\can.o --omf_browse ..\obj\can.crf --depend ..\obj\can.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -457,7 +457,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -472,8 +472,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\HARDWARE\PS2\pstwo.c)(0x5B59815C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\pstwo.o --omf_browse ..\obj\pstwo.crf --depend ..\obj\pstwo.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -519,7 +519,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -534,8 +534,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\HARDWARE\WDG\wdg.c)(0x5B598104)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\wdg.o --omf_browse ..\obj\wdg.crf --depend ..\obj\wdg.d)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\SYSTEM\sys\sys.h)(0x550F951C)
@@ -1029,7 +1029,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1044,9 +1044,9 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
-F (..\CAR\HUBMOTOR\hubmotor.c)(0x5B8E26F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hubmotor.o --omf_browse ..\obj\hubmotor.crf --depend ..\obj\hubmotor.d)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
+F (..\CAR\HUBMOTOR\hubmotor.c)(0x5B90996D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\hubmotor.o --omf_browse ..\obj\hubmotor.crf --depend ..\obj\hubmotor.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
 I (..\HARDWARE\LED\led.h)(0x50513ABC)
@@ -1091,7 +1091,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1106,8 +1106,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\STEERINGMOTOR\steeringmotor.c)(0x5B8DF94E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\steeringmotor.o --omf_browse ..\obj\steeringmotor.crf --depend ..\obj\steeringmotor.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1153,7 +1153,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1168,9 +1168,9 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
-F (..\CAR\INIT\init.c)(0x5B8E1FF0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\init.o --omf_browse ..\obj\init.crf --depend ..\obj\init.d)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
+F (..\CAR\INIT\init.c)(0x5B8FB756)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\init.o --omf_browse ..\obj\init.crf --depend ..\obj\init.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
 I (..\HARDWARE\LED\led.h)(0x50513ABC)
@@ -1215,7 +1215,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1230,8 +1230,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\XIANWEI\xianwei.c)(0x5B763D1B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\xianwei.o --omf_browse ..\obj\xianwei.crf --depend ..\obj\xianwei.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1277,7 +1277,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1292,8 +1292,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\DEALDATE\dealDate.c)(0x5B7FD276)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\dealdate.o --omf_browse ..\obj\dealdate.crf --depend ..\obj\dealdate.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1339,7 +1339,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1354,8 +1354,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\CONTROL\control.c)(0x5B8DF464)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\control.o --omf_browse ..\obj\control.crf --depend ..\obj\control.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1401,7 +1401,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1416,8 +1416,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\ROTATIONCONTROL\rotationControl.c)(0x5B755F05)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\rotationcontrol.o --omf_browse ..\obj\rotationcontrol.crf --depend ..\obj\rotationcontrol.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1463,7 +1463,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1478,9 +1478,9 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
-F (..\CAR\WORKSTATE\workState.c)(0x5B8E2367)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\workstate.o --omf_browse ..\obj\workstate.crf --depend ..\obj\workstate.d)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
+F (..\CAR\WORKSTATE\workState.c)(0x5B90971F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\workstate.o --omf_browse ..\obj\workstate.crf --depend ..\obj\workstate.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
 I (..\HARDWARE\LED\led.h)(0x50513ABC)
@@ -1525,7 +1525,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1540,8 +1540,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\action\action.c)(0x5B8DF429)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\action.o --omf_browse ..\obj\action.crf --depend ..\obj\action.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1587,7 +1587,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1602,8 +1602,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\TIMER_HUB\timer_hub.c)(0x5B8D2BDD)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\timer_hub.o --omf_browse ..\obj\timer_hub.crf --depend ..\obj\timer_hub.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1649,7 +1649,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1664,8 +1664,8 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\CRC\crc.c)(0x5B59806E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\SYSTEM\delay -I..\SYSTEM\sys -I..\SYSTEM\usart -I..\STM32F10x_FWLib\inc -I..\USER -I..\CORE -I..\HARDWARE\LED -I..\HARDWARE\KEY -I..\HARDWARE\LCD -I..\HARDWARE\RTC -I..\HARDWARE\RTC -I..\HARDWARE\WKUP -I..\HARDWARE\ADC -I..\HARDWARE\DAC -I..\HARDWARE\DMA -I..\HARDWARE\RS485 -I..\HARDWARE\TIMER -I..\HARDWARE\CAN -I..\HARDWARE\PS2 -I..\CAR\ENCODER -I..\CAR\CRC -I..\CAR\HUBMOTOR -I..\CAR\STEERINGMOTOR -I..\CAR\INIT -I..\CAR\XIANWEI -I..\HARDWARE\WDG -I..\CAR\STATE -I..\CAR\DEALDATE -I..\CAR\CONTROL -I..\CAR\ROTATIONCONTROL -I..\CAR\WORKSTATE -I..\HARDWARE\BEEP -I..\CAR\action -I..\CAR\TIMER_HUB-I C:\Users\chen\Desktop\9月\9.2合并测试\USER\RTE-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.0.5\Device\Include-I D:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="514" -DSTM32F10X_HD -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER-o ..\obj\crc.o --omf_browse ..\obj\crc.crf --depend ..\obj\crc.d)
 I (..\USER\main.h)(0x5B8D276B)
 I (..\USER\include.h)(0x5B8D2BCD)
@@ -1711,7 +1711,7 @@ I (..\HARDWARE\TIMER\timer.h)(0x5B8E1FAB)
 I (..\HARDWARE\WDG\wdg.h)(0x5051DADA)
 I (..\CAR\INIT\init.h)(0x5B763A2C)
 I (..\HARDWARE\PS2\pstwo.h)(0x5B59815C)
-I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)
+I (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)
 I (..\CAR\STEERINGMOTOR\steeringmotor.h)(0x5B8DF4A8)
 I (..\HARDWARE\CAN\can.h)(0x5B63A82A)
 I (..\CAR\ENCODER\encoder.h)(0x5B755EBC)
@@ -1726,14 +1726,14 @@ I (..\HARDWARE\BEEP\beep.h)(0x50517C96)
 I (..\CAR\action\action.h)(0x5B7630C5)
 I (D:\Keil_v5\ARM\ARMCC\include\math.h)(0x5475F2FE)
 I (..\CAR\TIMER_HUB\timer_hub.h)(0x5B8D171B)
-I (..\USER\config.h)(0x5B8D29CC)
-I (..\USER\extern_variable.h)(0x5B8DF7BF)
+I (..\USER\config.h)(0x5B90965C)
+I (..\USER\extern_variable.h)(0x5B8FAD97)
 F (..\CAR\action\action.h)(0x5B7630C5)()
 F (..\CAR\CONTROL\control.h)(0x5B59A038)()
 F (..\CAR\CRC\crc.h)(0x5B306544)()
 F (..\CAR\DEALDATE\dealDate.h)(0x5B8D2AA9)()
 F (..\CAR\ENCODER\encoder.h)(0x5B755EBC)()
-F (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8E217D)()
+F (..\CAR\HUBMOTOR\hubmotor.h)(0x5B8FAAF5)()
 F (..\CAR\INIT\init.h)(0x5B763A2C)()
 F (..\CAR\ROTATIONCONTROL\rotationControl.h)(0x5B614E6B)()
 F (..\CAR\STATE\state.h)(0x5B559F7A)()

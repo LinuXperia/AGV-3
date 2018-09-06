@@ -44,5 +44,16 @@ u32 steering_Max_Speed_4=0;
 u16 		hub_5_temp,		hub_6_temp,		hub_7_temp,		hub_8_temp;
 u16  		hub_5_,				hub_6_,				hub_7_,				hub_8_;
 u16     zero=0;
+
+//²âÊÔ¼ÓÉÏµÄ
+float Hub_Delta5,Hub_Delta6,Hub_Delta7,Hub_Delta8; 
+int hub_5_speed=0,hub_6_speed=0,hub_7_speed=0,hub_8_speed=0;
+int hub_5_speed_last=0,hub_6_speed_last=0,hub_7_speed_last=0,hub_8_speed_last=0;
+int hub_5_speed_last_last=0,hub_6_speed_last_last=0,hub_7_speed_last_last=0,hub_8_speed_last_last=0;
+int speed_cnt_5=0,speed_cnt_6=0,speed_cnt_7=0,speed_cnt_8=0;
+float speed_temp_5=0,speed_temp_6=0,speed_temp_7=0,speed_temp_8=0;
+int	HubMotorPlusSubSpeed=10;
+u16 hub_5_cnt=0,hub_6_cnt=0,hub_7_cnt=0,hub_8_cnt=0;
+
 #endif
 

@@ -281,11 +281,14 @@ void Speed_Postion_Control_Task(void)
 		}
 		case 12: 									//轮毂急停    PSB_R1 
 		{
-		//	hubmotor_speed=0;
-			EMB(0x0005);
-			EMB(0x0006);
-			EMB(0x0007);
-			EMB(0x0008);
+			hub_5_speed=0;
+			hub_6_speed=0;
+			hub_7_speed=0;
+			hub_8_speed=0;
+			setHubMotorTargetSpeed_PUL(0x0005,hub_5_speed);
+			setHubMotorTargetSpeed_PUL(0x0006,hub_6_speed);
+			setHubMotorTargetSpeed_PUL(0x0007,hub_7_speed);
+			setHubMotorTargetSpeed_PUL(0x0008,hub_8_speed);
 			hubCount=0;
 			break;
 		}
@@ -294,6 +297,10 @@ void Speed_Postion_Control_Task(void)
 			LCD_ShowString(50,130,200,16,16,"Forward");
 			hubCount++;
 			hubMotorPul(hubCount);            //设置速度
+			setHubMotorTargetSpeed_PUL(0x0005,hub_5_speed);
+			setHubMotorTargetSpeed_PUL(0x0006,hub_6_speed);
+			setHubMotorTargetSpeed_PUL(0x0007,hub_7_speed);
+			setHubMotorTargetSpeed_PUL(0x0008,hub_8_speed);
 			break;
 		}	
 		case 14: 																					//red
@@ -307,6 +314,10 @@ void Speed_Postion_Control_Task(void)
 			LCD_ShowString(50,130,200,16,16,"Back    ");
 			hubCount--;
 			hubMotorPul(hubCount);            //设置速度
+			setHubMotorTargetSpeed_PUL(0x0005,hub_5_speed);
+			setHubMotorTargetSpeed_PUL(0x0006,hub_6_speed);
+			setHubMotorTargetSpeed_PUL(0x0007,hub_7_speed);
+			setHubMotorTargetSpeed_PUL(0x0008,hub_8_speed);
 			break;
 		}	
 		case 16: 																				// PSB_PINK  后面失能

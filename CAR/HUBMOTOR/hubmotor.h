@@ -17,6 +17,9 @@ void setHubMotorLength(u16 DevID,int i);											//设置轮毂电机行进距离
 void hubMotorSpeed(int hubCounte);														//计算轮毂电机速度
 void setHubMotorLengthAndSpeed(u16 DevID,s32 length,s32 speed);				//设置轮毂电机行进长度和行进速度
 void hubMotorPul(int hubCounte);															//轮毂电机脉冲
+
+//测试加上的函数
+void setHubMotorTargetSpeed_PUL(u16 DevID,int speed);  //脉冲模式下发速度
 #endif
 
 

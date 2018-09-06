@@ -17,6 +17,8 @@ int main(void)
 	workState=Speed_Postion_Control;
 	while(1)
 	{	
+		
+		
 		sendDriverCAN();
 	  showState();	
 		switch(workState)		
